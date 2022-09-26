@@ -12,10 +12,10 @@
 <body>
     <!-- NAVBAR/HEADER -->
     <header class="header">
-        <img src="logo.png" alt="Aesthetic Coffee" class="logo">
+        <a href="index.html"><img src="/Assets/logo.png" alt="Waste Management System" class="logo"></a><h2>De-Bunkers</h2>
         <nav class="navbar">
             <ul class="navbar-lst">
-                <li><a href="#" class="navbar-link">Home</a></li>
+                <li><a href="index.html" class="navbar-link">Home</a></li>
                 <li><a href="#" class="navbar-link">About</a></li>
                 <li><a href="#" class="navbar-link">Service</a></li>
                 <li><a href="https://instagram.com/anshu.ck" class="navbar-link" target="_blank">Contact</a></li>
@@ -65,21 +65,27 @@
             </table>
         </div>
 
+        <div class="vl"></div>
         <!-- Pickups Details -->
-        <form class="formtwo" action="">
-            <ul class="tabs">
-                <li data-tab-target="#previous-pickups" class="active tab">Past Pickups</li>
-                <li data-tab-target="#present-history" class="tab">Upcoming Pickups</li>
-            </ul><hr>
-             <div class="tab-switching"><br>
-                <div id="previous-pickups" data-tab-content>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quaerat corrupti fugiat odit impedit labore corporis non nobis. Placeat tempore dolorem maiores alias reprehenderit ratione accusamus expedita nam repellendus suscipit.</p>
+        <div class="formtwo2">
+            <form class="subform1"action="#">
+                <ul class="tabs">
+                    <li data-tab-target="#previous-pickups" class="active tab">Past Pickups</li>
+                    <li data-tab-target="#present-history" class="tab">Upcoming Pickups</li>
+                </ul><hr>
+                <div class="tab-switching"><br>
+                    <div id="previous-pickups" data-tab-content>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quaerat corrupti fugiat odit impedit labore corporis non nobis. Placeat tempore dolorem maiores alias reprehenderit ratione accusamus expedita nam repellendus suscipit.</p>
+                    </div>
+                    <div id="present-history" data-tab-content class="active">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta, similique quae earum laboriosam numquam consequuntur, magni placeat suscipit dolorum nobis illo odit? Suscipit, ea! Aspernatur architecto asperiores corrupti officiis.</p>
+                    </div>
                 </div>
-                <div id="present-history" data-tab-content class="active">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta, similique quae earum laboriosam numquam consequuntur, magni placeat suscipit dolorum nobis illo odit? Suscipit, ea! Aspernatur architecto asperiores corrupti officiis.</p>
-                </div>
-             </div>
-        </form>
+            </form>
+            <form class="subform2" action="/HTML/index.html">
+                <input id="scheduleanother" type="submit" value="Schedule Another Pickup">
+            </form>
+        </div>
     </div>
 
       <!-- <script>

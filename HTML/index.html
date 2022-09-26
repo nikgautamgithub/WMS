@@ -11,10 +11,10 @@
 <body>
     <!-- NAVBAR/HEADER -->
     <header class="header">
-        <img src="logo.png" alt="Aesthetic Coffee" class="logo">
+        <a href="index.html"><img src="/Assets/logo.png" alt="Waste Management System" class="logo"></a><h2>De-Bunkers</h2>
         <nav class="navbar">
             <ul class="navbar-lst">
-                <li><a href="#" class="navbar-link">Home</a></li>
+                <li><a href="index.html" class="navbar-link">Home</a></li>
                 <li><a href="#" class="navbar-link">About</a></li>
                 <li><a href="#" class="navbar-link">Service</a></li>
                 <li><a href="https://instagram.com/anshu.ck" class="navbar-link" target="_blank">Contact</a></li>
@@ -24,7 +24,7 @@
 
     <!-- CLIENT'S PORTAL FORM -->
     <div class="formcont">
-        <form class="formone" action="#">
+        <form class="formone" action="/HTML/schedule.html">
             <h2 class="formheading">Schedule A Pickup</h2><br><hr><br>
                 <label for="fname">Your name:</label>
                 <input type="text" id="fname" name="cname" value="" placeholder="Name" required><br><br>
@@ -45,24 +45,26 @@
                 <input type="file" id="wsnap" name="wpic" accept="image/png, image/jpeg, image/jpg"><br><br>
                 
                 <input id="submitclient" type="submit" value="Submit">
+                <input id="resetclient" type="reset" value="Reset">
         </form>
-
-        <form class="formtwo" action="">
-            <ul class="tabs">
-                <li data-tab-target="#previous-pickups" class="tab">Past Pickups</li>
-                <li data-tab-target="#present-history" class="active tab">Upcoming Pickups</li>
-            </ul><hr>
-             <div class="tab-switching">
-                <div id="previous-pickups" data-tab-content>
-                    <h1>Past Pickups</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quaerat corrupti fugiat odit impedit labore corporis non nobis. Placeat tempore dolorem maiores alias reprehenderit ratione accusamus expedita nam repellendus suscipit.</p>
+        
+        <!-- Pickups Details -->
+        <div class="formtwo1">
+            <form action="">
+                <ul class="tabs">
+                    <li data-tab-target="#previous-pickups" class="active tab">Past Pickups</li>
+                    <li data-tab-target="#present-history" class="tab">Upcoming Pickups</li>
+                </ul><hr>
+                <div class="tab-switching"><br>
+                    <div id="previous-pickups" data-tab-content>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quaerat corrupti fugiat odit impedit labore corporis non nobis. Placeat tempore dolorem maiores alias reprehenderit ratione accusamus expedita nam repellendus suscipit.</p>
+                    </div>
+                    <div id="present-history" data-tab-content class="active">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta, similique quae earum laboriosam numquam consequuntur, magni placeat suscipit dolorum nobis illo odit? Suscipit, ea! Aspernatur architecto asperiores corrupti officiis.</p>
+                    </div>
                 </div>
-                <div id="present-history" data-tab-content class="active">
-                    <h1>Upcoming Pickups</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta, similique quae earum laboriosam numquam consequuntur, magni placeat suscipit dolorum nobis illo odit? Suscipit, ea! Aspernatur architecto asperiores corrupti officiis.</p>
-                </div>
-             </div>
-        </form>
+            </form>
+        </div>
     </div>
 
       <!-- <script>
