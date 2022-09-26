@@ -35,11 +35,13 @@
     width: 65px;
     height: 65px;
     border-radius: 100%;
+    margin-right: 10px;
 }
 .header h2{
-    margin: 0 0 0 -49rem;
+    margin: 0 0 0 1px;
     letter-spacing: 3px;
     color: var(--primary-white);
+    margin-right: auto;
 }
 .navbar{
     height: 1.3rem;
